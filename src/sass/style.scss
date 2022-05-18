@@ -1,6 +1,11 @@
+* {
+    font-family: 'MuseoModerno';
+}
 .container {
-    min-width: 850px;
+    max-width: 850px;
     margin: 0 auto;
     
 }
-@import 'ter/promo'
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/button';

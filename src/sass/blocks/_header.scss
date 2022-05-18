@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__official {
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        a {
+            font-weight: 700;
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
