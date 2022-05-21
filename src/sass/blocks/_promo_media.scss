@@ -1,0 +1,19 @@
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        min-height: 550px;
+        padding: 23px 0 23px 0;
+        &__header {
+            margin-top: 50px;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+    }
+}

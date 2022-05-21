@@ -1,0 +1,27 @@
+@media (max-width: 991px) {
+    .advantages {
+        &__items {
+            max-width: 245px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .advantages {
+        padding: 45px 0;
+        &__wrapper {
+            margin-top: 0;
+            &:last-child {
+                justify-content: center;
+            }
+        }
+        &__items {
+            margin-top: 20px;
+        }
+        &__title {
+            margin-top: 10px;
+        }
+        &__description {
+            margin-top: 10px;
+        }
+    }
+}
