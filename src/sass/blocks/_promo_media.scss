@@ -1,5 +1,6 @@
 @media (max-width: 991px) {
     .promo {
+        background: url('../img/promo_bg.jpg') center (center/cover) no-repeat;
         &__wrapper {
             align-items: center;
         }
@@ -14,6 +15,29 @@
         }
         &__icons {
             margin-top: 40px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            margin-top: 30px;
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icon {
+            width: 90px;
+        }
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                font-size: 12px;
+                padding-left: 3px;
+            }
         }
     }
 }
