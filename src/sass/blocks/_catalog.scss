@@ -1,0 +1,105 @@
+.catalog {
+    &__tabs {
+        margin-top: 45px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    &__tab {
+        width: 222px;
+        height: 52px;
+        border: 2px solid #D0D0D0;
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 50px;
+        transform: skewX(-25deg);
+        cursor: pointer;
+        &:hover {
+            box-shadow: 1px 1px 20px #C70101;
+            
+        }
+        div {
+            transform: skewX(25deg);
+        }
+        &_active {
+            background-color: #C70101;
+            color: #fff;
+            border: none;
+        }
+        
+    }
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    &__item {
+        width: 303px;
+        min-height: 442px;
+        padding: 20px 25px 20px 25px;
+        border: 2px solid #E8E8E8;
+        margin-top: 20px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        max-height: 200px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 16px;
+        color: #0D0D0D;
+        text-align: center;
+        margin-top: 15px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    &__link {
+        font-weight: 500;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: #C70101;
+        text-decoration-line: underline;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 17px;
+    }
+    &__price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    &__old-price {
+        font-weight: 300;
+        font-size: 14px;
+        text-decoration: line-through;
+        color: #555555
+    }
+    &__new-price {
+        font-weight: 700;
+        font-size: 20px;
+        color: #050505;
+        margin-top: -5px;
+    }
+}
+.devider {
+    width: 263px;
+    height: 2px;
+    background: #E8E8E8;
+    margin: 0 auto;
+    margin-top: 17px;
+}
